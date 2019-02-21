@@ -80,11 +80,24 @@ export default class Resume extends Component {
            <h1><span>Skills</span></h1>
          </div>
          <div className="nine columns main-col">
-           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-             voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-             voluptatem sequi nesciunt.
-           </p>
+            <h3>Design & Technical Skills</h3>
+            <p>Sketching, colour theory, typography, graphic design, usability, wireframing, rapid prototyping, UI/UX design, web design.</p>
+            <p><u>Design:</u> Photoshop, Illustrator, Sketch, Moqups.
+            <br />
+            <u>Languages:</u> Java, python, php, HTML, CSS, JavaScript, JQuery, React, R, CakePHP, Bootstrap, git/github.
+            <br />
+            <u>Databases:</u> SQL, Oracle, mySQL, phpMyAdmin.
+            <br />
+            <u>Other:</u> MS Office, Wordpress.
+            </p>
+            <h3>Soft Skills</h3>
+            <p>• High level of maturity and sense of responsibility <br/>
+                • Excellent written and verbal communication <br/>
+                • Effective time management skills<br/>
+                • Problem solving skills<br/>
+                • Project Management<br/>
+                • Ability to adapt to change<br/>
+                • Highly resourceful, objective and reliable</p>
            <div className="bars">
              <ul className="skills">
                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>

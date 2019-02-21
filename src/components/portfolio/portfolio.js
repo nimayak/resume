@@ -8,17 +8,17 @@ export default class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Work.</h1>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt src="images/portfolio/coffee.jpg" />
+                    <img alt src="images/portfolio/CoverRedesign1.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Coffee</h5>
-                        <p>Illustrration</p>
+                        <h5>Book Cover Redesign</h5>
+                        <p>Graphic Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -28,11 +28,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt src="images/portfolio/console.jpg" />
+                    <img alt src="images/portfolio/OldSpiceLogo.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Console</h5>
-                        <p>Web Development</p>
+                        <h5>Logo</h5>
+                        <p>Graphic Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -42,11 +42,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt src="images/portfolio/judah.jpg" />
+                    <img alt src="images/portfolio/CoverRedesign2.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>Book Cover Redesign</h5>
+                        <p>Graphic Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -56,11 +56,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt src="images/portfolio/into-the-light.jpg" />
+                    <img alt src="images/portfolio/CoverRedesign3.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>Book Cover Redesign</h5>
+                        <p>Graphic Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -70,11 +70,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
-                    <img alt src="images/portfolio/farmerboy.jpg" />
+                    <img alt src="images/portfolio/drawing-app.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Farmer Boy</h5>
-                        <p>Branding</p>
+                        <h5>Children's Drawing App</h5>
+                        <p>HTML5 Canvas</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -84,11 +84,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title>
-                    <img alt src="images/portfolio/girl.jpg" />
+                    <img alt src="images/portfolio/band-website.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Girl</h5>
-                        <p>Photography</p>
+                        <h5>Band Website</h5>
+                        <p>Web Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -128,7 +128,7 @@ export default class Portfolio extends Component {
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-CoverRedesign1.png" alt />
             <div className="description-box">
               <h4>Coffee Cup</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
@@ -176,7 +176,7 @@ export default class Portfolio extends Component {
             </div>
           </div>{/* modal-04 End */}
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-drawing-app.png" alt />
             <div className="description-box">
               <h4>Farmer Boy</h4>
               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
