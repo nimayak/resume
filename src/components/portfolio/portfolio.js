@@ -1,243 +1,131 @@
 import React, { Component } from 'react';
+import { render } from 'react-dom';
+import Gallery from 'react-grid-gallery';
+
+
+const IMAGES =
+[{
+       src: "images/portfolio/band-website.png",
+       thumbnail: "images/portfolio/band-website.png",
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web Design"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: Fictional Band Website. Source code: https://github.com/nimayak/band-website"
+},
+{
+       src: "images/portfolio/HRAFF-website.png",
+       thumbnail: "images/portfolio/HRAFF-website.png",
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web Design"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: HRAFF website redesign. Source code: https://github.com/nimayak/HRAFF-homepage-redesign"
+},
+{
+       src: "images/portfolio/vintage-collectibles.png",
+       thumbnail: "images/portfolio/vintage-collectibles.png",
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web Design"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: Vintage store website. Source code: https://github.com/nimayak/vintage-collectibles"
+},
+{
+       src: "images/portfolio/task-app.png",
+       thumbnail: "images/portfolio/task-app.png",
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web App", title: "Web App"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: A simple to-do-list app. Source code: https://github.com/nimayak/To-do-list-tasks-app"
+},
+{
+       src: "images/portfolio/CoverRedesign1.png",
+       thumbnail: "images/portfolio/CoverRedesign1.png",
+       thumbnailWidth: 400,
+       tags: [{value: "Graphic Design", title: "Graphic Design"}],
+       caption: "Uni Project: Book Cover Redesign"
+},
+{
+       src: "images/portfolio/CoverRedesign2.png",
+       thumbnail: "images/portfolio/CoverRedesign2.png",
+       tags: [{value: "Graphic Design", title: "Graphic Design"}],
+       thumbnailHeight: 212,
+       caption: "Uni Project: Book Cover Redesign"
+},
+{
+       src: "images/portfolio/CoverRedesign3.png",
+       thumbnail: "images/portfolio/CoverRedesign3.png",
+       thumbnailHeight: 212,
+       tags: [{value: "Graphic Design", title: "Graphic Design"}],
+       caption: "Uni Project: Book Cover Redesign"
+},
+{
+       src: "images/portfolio/drawing-app.png",
+       thumbnail: "images/portfolio/drawing-app.png",
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web Design"}, {value: "HTML5 Canvas", title: "HTML5 Canvas"}],
+       caption: "Uni Project: Children's drawing app using HTML5 Canvas. Source code: https://github.com/nimayak/drawing-app"
+},
+{
+       src: "images/portfolio/OldSpiceLogo.png",
+       thumbnail: "images/portfolio/OldSpiceLogo.png",
+       thumbnailHeight: 700,
+       tags: [{value: "Graphic Design", title: "Graphic Design"}, {value: "Logo", title: "Logo"}],
+       caption: "Uni Project: Old Spice Logo for Girls Redesign"
+},
+{
+       src: "images/portfolio/weather-app.png" ,
+       thumbnail: "images/portfolio/weather-app.png" ,
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web Design"}, {value: "UI Design", title: "UI Design"}],
+       caption: "React Tutorial: Simple weather app. Source code: https://github.com/nimayak/weather-app-tutorial"
+},
+{
+       src: "images/portfolio/Cubism_Website.jpg" ,
+       thumbnail: "images/portfolio/Cubism_Website.jpg" ,
+       thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Prototype", title: "Protoype"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: Homepage design based on the Cubism art movement."
+},
+{
+       src: "images/portfolio/CAT_delivery_Website.jpg" ,
+       thumbnail: "images/portfolio/CAT_delivery_Website.jpg" ,
+       thumbnailHeight: 212,
+       tags: [{value: "Prototype", title: "Protoype"}, {value: "UX Design", title: "UX Design"}],
+       caption: "Uni Project: Web app for a delivery service. Full prototype: https://github.com/nimayak/pdf-prototypes/blob/master/CAT_delivery_website.pdf"
+},
+{
+       src: "images/portfolio/GoGo_Travel.jpg" ,
+       thumbnail: "images/portfolio/GoGo_Travel.jpg" ,
+       thumbnailHeight: 212,
+       tags: [{value: "Prototype", title: "Protoype"}, {value: "UI Design", title: "UI Design"}],
+       caption: "Uni Project: Low fidelity prototype for a Travel company. Full prototype: https://github.com/nimayak/pdf-prototypes/blob/master/GoGo_Travel.pdf"
+},
+{
+       src: "images/portfolio/elnapress.png" ,
+       thumbnail: "images/portfolio/elnapress.png" ,
+      thumbnailWidth: 320,
+       thumbnailHeight: 212,
+       tags: [{value: "Web Design", title: "Web design"}, {value: "UX Design", title: "UX Design"}],
+       caption: "Client Project: Create a modern website to fufill the client's requirements. Live website: https://www.elnapress.com.au/"
+}]
+
 export default class Portfolio extends Component {
   render() {
     return (
       <React.Fragment>
       {/* Portfolio Section
    ================================================== */}
-
       <section id="portfolio">
-    
 
         <div className="row">
+
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Work.</h1>
+            <Gallery images={IMAGES}/>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-01" title>
-                    <img alt src="images/portfolio/CoverRedesign1.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Cover Redesign</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-02" title>
-                    <img alt src="images/portfolio/OldSpiceLogo.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Logo</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title>
-                    <img alt src="images/portfolio/CoverRedesign2.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Cover Redesign</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04" title>
-                    <img alt src="images/portfolio/CoverRedesign3.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Cover Redesign</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-05" title>
-                    <img alt src="images/portfolio/drawing-app.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Children's Drawing App</h5>
-                        <p>HTML5 Canvas</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-06" title>
-                    <img alt src="images/portfolio/band-website.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Band Website</h5>
-                        <p>Web Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-07" title>
-                    <img alt src="images/portfolio/HRAFF-website.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Website Redesign for HRAFF</h5>
-                        <p>Web design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-08" title>
-                    <img alt src="images/portfolio/vintage-collectibles.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Vintage Store Website</h5>
-                        <p>Web Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div>  {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-09" title>
-                    <img alt src="images/portfolio/task-app.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Tasks app</h5>
-                        <p>Web App</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-10" title>
-                    <img alt src="images/portfolio/weather-app.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Logo</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-11" title>
-                    <img alt src="images/portfolio/CoverRedesign2.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Cover Redesign</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-12" title>
-                    <img alt src="images/portfolio/CoverRedesign3.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Book Cover Redesign</h5>
-                        <p>Graphic Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-13" title>
-                    <img alt src="images/portfolio/drawing-app.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Children's Drawing App</h5>
-                        <p>HTML5 Canvas</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-14" title>
-                    <img alt src="images/portfolio/band-website.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Band Website</h5>
-                        <p>Web Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-15" title>
-                    <img alt src="images/portfolio/HRAFF-website.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Website Redesign for HRAFF</h5>
-                        <p>Web design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-16" title>
-                    <img alt src="images/portfolio/task-app.png" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Vintage Store Website</h5>
-                        <p>Web Design</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div>  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
           {/* Modal Popup
