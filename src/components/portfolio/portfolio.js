@@ -98,11 +98,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title>
-                    <img alt src="images/portfolio/origami.jpg" />
+                    <img alt src="images/portfolio/HRAFF-website.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Origami</h5>
-                        <p>Illustrration</p>
+                        <p>Illustration</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
