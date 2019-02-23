@@ -19,10 +19,9 @@ export default class Resume extends Component {
                <h3>Monash University, Clayton</h3>
                <p className="info">Bachelor of Information Technology and Science <span>•</span> <em className="date">2016 - 2018</em></p>
                <p>
-                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                 ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+               Majoring in Software Development and Immunology has allowed me to develop creative and analytical skills, as well as developing my professionalism in which I can apply in the industry. Having taken an interest in the front-end development and UX design area of software development I chose units such as ‘usability’ and ‘advanced web design’ that helped me further my skills. </p>
+               <p>The usability unit enabled me to understand the theories and principles of usability as applied to interface and interaction design and how to apply usability principles to the design of interfaces for Web, small screen and mobile devices. </p>
+               <p>In my advanced web design unit I was able to the design and develop mobile online apps using HTML5, CSS3, JavaScript and WordPress. I learnt how to analyse, evaluate and design responsive web layouts for touch screen and mobile devices and how to implement this functionality for web applications.
                </p>
              </div>
            </div> {/* item end */}
@@ -31,10 +30,7 @@ export default class Resume extends Component {
                <h3>Haileybury Girls' College</h3>
                <p className="info">VCE ATAR of 93.8 <span>•</span> <em className="date">2009 - 2014</em></p>
                <p>
-                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                 ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                 During my school years, I was co-captain of the Cross Country team during senior school and engaged in many musicals and school productions that interested me. I also completed the VCE VET Interactive Digital Media program which enabled to receive the following qualifications: Certificate II in Creative Industries (Media) and Certificate III in Media.
                </p>
              </div>
            </div> {/* item end */}
