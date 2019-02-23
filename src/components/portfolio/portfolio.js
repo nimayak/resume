@@ -26,7 +26,7 @@ const IMAGES =
        thumbnailWidth: 320,
        thumbnailHeight: 212,
        tags: [{value: "Web Design", title: "Web Design"}, {value: "UI Design", title: "UI Design"}],
-       caption: "Uni Project: Vintage store website. Source code: https://github.com/nimayak/vintage-collectibles"
+       caption: "Uni Project: Vintage store website. Live website: https://vintagecollectibles.netlify.com/ Source code: https://github.com/nimayak/vintage-collectibles"
 },
 {
        src: "images/portfolio/task-app.png",
@@ -34,7 +34,7 @@ const IMAGES =
        thumbnailWidth: 320,
        thumbnailHeight: 212,
        tags: [{value: "Web App", title: "Web App"}, {value: "UI Design", title: "UI Design"}],
-       caption: "Uni Project: A simple to-do-list app. Live website: https://vintagecollectibles.netlify.com/ Source code: https://github.com/nimayak/To-do-list-tasks-app"
+       caption: "Uni Project: A simple to-do-list app. Source code: https://github.com/nimayak/To-do-list-tasks-app"
 },
 {
        src: "images/portfolio/CoverRedesign1.png",
