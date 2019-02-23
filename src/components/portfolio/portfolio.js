@@ -90,7 +90,7 @@ const IMAGES =
 },
 {
        src: "images/portfolio/CAT_delivery_Website.jpg" ,
-       thumbnail: "images/portfolio/CAT_delivery_Website.jpg" ,
+       thumbnail: "images/portfolio/CAT_delivery_website.jpg" ,
        thumbnailHeight: 212,
        tags: [{value: "Prototype", title: "Protoype"}, {value: "UX Design", title: "UX Design"}],
        caption: "Uni Project: Web app for a delivery service. Full prototype: https://github.com/nimayak/pdf-prototypes/blob/master/CAT_delivery_website.pdf"
