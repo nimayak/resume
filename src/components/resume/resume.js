@@ -94,16 +94,6 @@ export default class Resume extends Component {
                 • Project Management<br/>
                 • Ability to adapt to change<br/>
                 • Highly resourceful, objective and reliable</p>
-           // <div className="bars">
-           //   <ul className="skills">
-           //     <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-           //     <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-           //     <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-           //     <li><span className="bar-expand css" /><em>CSS</em></li>
-           //     <li><span className="bar-expand html5" /><em>HTML5</em></li>
-           //     <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-           //   </ul>
-           // </div>{/* end skill-bars */}
          </div> {/* main-col end */}
        </div> {/* End skills */}
      </section> {/* Resume Section End*/}
