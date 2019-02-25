@@ -57,7 +57,7 @@ export default class Resume extends Component {
            <div className="row item">
              <div className="twelve columns">
                <h3>UX Designer and Web Developer</h3>
-               <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+               <p className="info">UX Designer <span>•</span> <em className="date">March 2018 - October 2018</em></p>
                <ul>
                  <li>• Developing a <a href="https://www.elnapress.com.au/" target="_blank">new modern web site</a> which includes a content management and a backend database storage system to replace their current outdated website. </li>
                  <li>• Prototyping using tools such as Sketch, Moqups, LucidChart </li>
@@ -94,16 +94,16 @@ export default class Resume extends Component {
                 • Project Management<br/>
                 • Ability to adapt to change<br/>
                 • Highly resourceful, objective and reliable</p>
-           <div className="bars">
-             <ul className="skills">
-               <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-               <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-               <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-               <li><span className="bar-expand css" /><em>CSS</em></li>
-               <li><span className="bar-expand html5" /><em>HTML5</em></li>
-               <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-             </ul>
-           </div>{/* end skill-bars */}
+           // <div className="bars">
+           //   <ul className="skills">
+           //     <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
+           //     <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
+           //     <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+           //     <li><span className="bar-expand css" /><em>CSS</em></li>
+           //     <li><span className="bar-expand html5" /><em>HTML5</em></li>
+           //     <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+           //   </ul>
+           // </div>{/* end skill-bars */}
          </div> {/* main-col end */}
        </div> {/* End skills */}
      </section> {/* Resume Section End*/}
