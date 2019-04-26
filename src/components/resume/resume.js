@@ -17,7 +17,7 @@ export default class Resume extends Component {
            <div className="row item">
              <div className="twelve columns">
                <h3>Monash University, Clayton</h3>
-               <p className="info">Bachelor of Information Technology and Science <span>•</span> <em className="date">2016 - 2018</em></p>
+               <p className="info">Bachelor of Information Technology and Science <span>•</span> <em className="date">2016 - 2019</em></p>
                <p>
                Majoring in Software Development and Immunology has allowed me to develop creative and analytical skills, as well as developing my professionalism in which I can apply in the industry. Having taken an interest in the front-end development and UX design area of software development I chose units such as ‘usability’ and ‘advanced web design’ that helped me further my skills. </p>
                <p>The usability unit enabled me to understand the theories and principles of usability as applied to interface and interaction design and how to apply usability principles to the design of interfaces for Web, small screen and mobile devices. </p>

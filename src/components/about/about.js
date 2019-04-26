@@ -11,7 +11,7 @@ export default class About extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>I am a recent Monash University Graduate with a Bachelor's degree of Information Technology and Science. I wish to secure a position in a creative and dynamic work environment where I can apply my skills in UX design, software and web development.
+            <p>I am a final-year Monash University student undergoing a Bachelor's degree of Information Technology and Science. I wish to secure a position in a creative and dynamic work environment where I can apply my skills in UX design, software and web development.
             </p>
             <div className="row">
               <div className="columns contact-details">
@@ -26,7 +26,7 @@ export default class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="/Nimaya_Kodikara_CV.pdf"  className="button" download><i className="fa fa-download" />Download Resume</a>
+                  <a href="/Nimaya_Kodikara_Resume.pdf"  className="button" download><i className="fa fa-download" />Download Resume</a>
                 </p>
               </div>
             </div> {/* end row */}
